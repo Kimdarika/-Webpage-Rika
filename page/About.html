@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+</head>
+<style>
+details {
+  border-radius: 8px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+/* Summary styling (the clickable question) */
+summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 16px;
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Plus/minus icon */
+summary::marker {
+  display: none;
+}
+summary::after {
+  content: '+';
+  font-size: 20px;
+  transition: transform 0.3s ease;
+}
+details[open] summary::after {
+  content: '−';
+  transform: rotate(180deg);
+}
+
+/* Answer/content styling */
+details p {
+  padding: 0 16px 16px 16px;
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-black{
+  width: 300px;
+}
+
+</style>
+<body>
+     <details>
+        <summary>Why is Webflow the best nocode tool?</summary>
+        <p>Because it combines visual design with clean code, powerful CMS, and flexible animations without sacrificing control...</p>
+     </details>
+
+        <details>
+        <summary>When was Webflow founded?</summary>
+        <p>Webflow was founded on August 5, 2013...</p>
+     </details>   
+</body>
+</html>
+
+        <aside class="footer-black">
+            <details class="card-footer">
+                <summary>Why is Webflow the best nocode tool?</summary>
+                <p>Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aute irure dolor</p>
+            </details>
+            <details class="card-footer">
+                <summary>When did Webflow was founded?</summary>
+                <p>Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aute irure dolor</p>
+            </details>
+            <details class="card-footer">
+                <summary>Is NoCode the future of the web?</summary>
+                <p>Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aute irure dolor</p>
+            </details>
+            <details class="card-footer">
+                <summary>How to launch a Webflow website?</summary>
+                <p>Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aute irure dolor</p>
+            </details>
+            <details class="card-footer">
+                <summary>Who founded BRIX Templates?</summary>
+                <p>Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aute irure dolor</p>
+            </details>
+            <details class="card-footer">
+                <summary>Who are the Webflow founders?</summary>
+                <p>Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aute irure dolor</p>
+            </details>
+        </aside>
+
+
+
+
+
+
+
+
+
+
+
+
+
